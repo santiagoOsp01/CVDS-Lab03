@@ -40,4 +40,25 @@ public class RegistryTest {
         RegisterResult register = registry.registerVoter(person);
         Assert.assertEquals(RegisterResult.VALID, register);
     }
+
+    @Test
+    public void given_name_when_longitud_IsGreaterThan30_then_inValid(){
+        Person person = new Person("Juanjsjcsbcjsbcjsbcjscbsjcbsjcbsjcbscbcjbcjbcjscbscbajsbcjhsacjhsacvhscvsahcvjhcvjcvsacjsavcjhsavchcvjhcvsjhcvsjhcvsacjhvschsavcjhsacvc", 79843793, 58, Gender.MALE, true);
+        Name register = registry.registerName(person);
+        Assert.assertEquals(Name.InValidName, register);
+    }
+
+    @Test
+    public void given_name_when_longitud_IsLessThan1_then_inValid(){
+        Person person = new Person("", 79843793, 58, Gender.MALE, true);
+        Name register = registry.registerName(person);
+        Assert.assertEquals(Name.InValidName, register);
+    }
+
+    @Test
+    public void given_name_when_isValid(){
+        Person person = new Person("Santiago", 79843793, 58, Gender.MALE, true);
+        Name register = registry.registerName(person);
+        Assert.assertEquals(Name.ValidName, register);
+    }
 }

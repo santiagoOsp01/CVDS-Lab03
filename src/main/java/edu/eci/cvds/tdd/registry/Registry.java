@@ -12,4 +12,13 @@ public class Registry {
         }
         return result;
     }
+    public Name registerName(Person p) {
+        Name result = null;
+        if ((p.getName()).length() <= 0 || (p.getName()).length() > 30){
+            result = Name.InValidName;
+        } else{
+            result =  Name.ValidName;
+        }
+        return result;
+    }
 }
