@@ -21,4 +21,16 @@ public class Registry {
         }
         return result;
     }
+
+    public Gender registerGender(Person p) {
+        Gender result = null;
+        if (p.getGender().equals(Gender.MALE)){
+            result = Gender.MALE;
+        } else if(p.getGender().equals(Gender.FEMALE)){
+            result =  Gender.FEMALE;
+        }else {
+            result =  Gender.UNIDENTIFIED;
+        }
+        return result;
+    }
 }

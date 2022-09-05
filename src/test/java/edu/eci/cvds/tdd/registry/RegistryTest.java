@@ -61,4 +61,25 @@ public class RegistryTest {
         Name register = registry.registerName(person);
         Assert.assertEquals(Name.ValidName, register);
     }
+
+    @Test
+    public void given_Gender_UNIDENTIFIED(){
+        Person person = new Person("Santiago", 79843793, 58, Gender.UNIDENTIFIED, true);
+        Gender register = registry.registerGender(person);
+        Assert.assertEquals(Gender.UNIDENTIFIED, register);
+    }
+
+    @Test
+    public void given_Gender_MALE(){
+        Person person = new Person("Santiago", 79843793, 58, Gender.MALE, true);
+        Gender register = registry.registerGender(person);
+        Assert.assertEquals(Gender.MALE, register);
+    }
+
+    @Test
+    public void given_Gender_FEMALE(){
+        Person person = new Person("Santiago", 79843793, 58, Gender.FEMALE, true);
+        Gender register = registry.registerGender(person);
+        Assert.assertEquals(Gender.FEMALE, register);
+    }
 }
