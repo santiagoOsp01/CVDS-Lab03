@@ -33,4 +33,27 @@ public class Registry {
         }
         return result;
     }
+
+    public Ids registerVoterId(Person p) {
+        Ids result = null;
+        int l = Integer.toString(p.getId()).length();
+        if (l > 6 && l < 10){
+            result = Ids.VALID_ID;
+        } else {
+            result =  Ids.INVALID_ID;
+        }
+        return result;
+    }
+
+    public RegisterResult registerAlive(Person p){
+        RegisterResult result = null;
+        if (p == null){
+            result = RegisterResult.INVALID;
+        } else if (!p.isAlive()){
+            result = RegisterResult.DEAD;
+        } else {
+            result = RegisterResult.VALID;
+        }
+        return result;
+    }
 }
