@@ -42,5 +42,6 @@ build/
 *target
 .idea
 target
-/.idea
-/target
+
+.idea/
+target/
