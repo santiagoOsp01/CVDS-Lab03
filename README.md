@@ -44,3 +44,4 @@ el resultado para la logica propuesta:
    4. given_daysInAdvance21AndAge65_Then_FareDiscount15Percent
 
 **Resultado de las pruebas:**
+![](resources/tests3.png)
