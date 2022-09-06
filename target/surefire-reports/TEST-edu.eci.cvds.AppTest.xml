@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.AppTest" time="0.081" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="edu.eci.cvds.AppTest" time="0.103" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="18"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/test-classes:/Users/isaeme23/Downloads/CVDS-Lab03/target/classes:/Users/isaeme23/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/isaeme23/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/test-classes:/Users/isaeme23/Downloads/CVDS-Lab03/target/classes:/Users/isaeme23/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/isaeme23/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/isaeme23/Downloads/CVDS-Lab03/Library/aerodescuentos-1.0.0.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CO"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/18.0.2.1/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/surefire/surefirebooter3930578015246617971.jar /Users/isaeme23/Downloads/CVDS-Lab03/target/surefire 2022-09-06T09-51-07_234-jvmRun1 surefire3934062667772190627tmp surefire_010222060231037015693tmp"/>
+    <property name="sun.java.command" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/surefire/surefirebooter10602373025230751875.jar /Users/isaeme23/Downloads/CVDS-Lab03/target/surefire 2022-09-06T11-55-18_428-jvmRun1 surefire8541476747754001336tmp surefire_017011493152653464525tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/test-classes:/Users/isaeme23/Downloads/CVDS-Lab03/target/classes:/Users/isaeme23/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/isaeme23/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/test-classes:/Users/isaeme23/Downloads/CVDS-Lab03/target/classes:/Users/isaeme23/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/isaeme23/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/isaeme23/Downloads/CVDS-Lab03/Library/aerodescuentos-1.0.0.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/isaeme23"/>
     <property name="user.language" value="es"/>
@@ -29,7 +29,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/surefire/surefirebooter3930578015246617971.jar"/>
+    <property name="surefire.real.class.path" value="/Users/isaeme23/Downloads/CVDS-Lab03/target/surefire/surefirebooter10602373025230751875.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="18.0.2.1+0"/>
@@ -56,5 +56,5 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="62.0"/>
   </properties>
-  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.AppTest" time="0.009"/>
+  <testcase name="shouldAnswerWithTrue" classname="edu.eci.cvds.AppTest" time="0.014"/>
 </testsuite>
